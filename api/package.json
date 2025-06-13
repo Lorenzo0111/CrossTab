@@ -1,0 +1,22 @@
+{
+  "name": "crosstab-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Lorenzo0111",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "postinstall": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.0",
+    "hono": "^4.7.11",
+    "zod": "^3.25.57"
+  },
+  "devDependencies": {
+    "wrangler": "^4.4.0"
+  }
+}

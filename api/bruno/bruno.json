@@ -1,0 +1,10 @@
+{
+  "version": "1",
+  "name": "CrossTab",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git",
+    ".wrangler"
+  ]
+}

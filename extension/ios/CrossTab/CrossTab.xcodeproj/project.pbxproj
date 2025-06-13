@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6A28412DF98C4B008DFF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28402DF98C4B008DFF8A /* AppDelegate.swift */; };
+		ED6A28432DF98C4B008DFF8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28422DF98C4B008DFF8A /* SceneDelegate.swift */; };
+		ED6A28462DF98C4B008DFF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28442DF98C4B008DFF8A /* LaunchScreen.storyboard */; };
+		ED6A28492DF98C4B008DFF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28472DF98C4B008DFF8A /* Main.storyboard */; };
+		ED6A28522DF98C4B008DFF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28512DF98C4B008DFF8A /* AppDelegate.swift */; };
+		ED6A28552DF98C4B008DFF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28532DF98C4B008DFF8A /* Main.storyboard */; };
+		ED6A285D2DF98C4B008DFF8A /* CrossTab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ED6A285C2DF98C4B008DFF8A /* CrossTab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED6A28672DF98C4B008DFF8A /* CrossTab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ED6A28662DF98C4B008DFF8A /* CrossTab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED6A286D2DF98C4B008DFF8A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28302DF98C4A008DFF8A /* Main.html */; };
+		ED6A286E2DF98C4B008DFF8A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28302DF98C4A008DFF8A /* Main.html */; };
+		ED6A286F2DF98C4B008DFF8A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28322DF98C4A008DFF8A /* Icon.png */; };
+		ED6A28702DF98C4B008DFF8A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28322DF98C4A008DFF8A /* Icon.png */; };
+		ED6A28712DF98C4B008DFF8A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28332DF98C4A008DFF8A /* Style.css */; };
+		ED6A28722DF98C4B008DFF8A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28332DF98C4A008DFF8A /* Style.css */; };
+		ED6A28732DF98C4B008DFF8A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28342DF98C4A008DFF8A /* Script.js */; };
+		ED6A28742DF98C4B008DFF8A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28342DF98C4A008DFF8A /* Script.js */; };
+		ED6A28752DF98C4B008DFF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28352DF98C4A008DFF8A /* ViewController.swift */; };
+		ED6A28762DF98C4B008DFF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28352DF98C4A008DFF8A /* ViewController.swift */; };
+		ED6A28772DF98C4B008DFF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28362DF98C4B008DFF8A /* Assets.xcassets */; };
+		ED6A28782DF98C4B008DFF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28362DF98C4B008DFF8A /* Assets.xcassets */; };
+		ED6A28792DF98C4B008DFF8A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28382DF98C4B008DFF8A /* SafariWebExtensionHandler.swift */; };
+		ED6A287A2DF98C4B008DFF8A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A28382DF98C4B008DFF8A /* SafariWebExtensionHandler.swift */; };
+		ED6A28912DF98C4B008DFF8A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288C2DF98C4B008DFF8A /* background.js */; };
+		ED6A28922DF98C4B008DFF8A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288D2DF98C4B008DFF8A /* popup.html */; };
+		ED6A28932DF98C4B008DFF8A /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288E2DF98C4B008DFF8A /* chunks */; };
+		ED6A28942DF98C4B008DFF8A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288F2DF98C4B008DFF8A /* icons */; };
+		ED6A28952DF98C4B008DFF8A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28902DF98C4B008DFF8A /* manifest.json */; };
+		ED6A28962DF98C4B008DFF8A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288C2DF98C4B008DFF8A /* background.js */; };
+		ED6A28972DF98C4B008DFF8A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288D2DF98C4B008DFF8A /* popup.html */; };
+		ED6A28982DF98C4B008DFF8A /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288E2DF98C4B008DFF8A /* chunks */; };
+		ED6A28992DF98C4B008DFF8A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = ED6A288F2DF98C4B008DFF8A /* icons */; };
+		ED6A289A2DF98C4B008DFF8A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED6A28902DF98C4B008DFF8A /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6A285E2DF98C4B008DFF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6A282A2DF98C4A008DFF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6A285B2DF98C4B008DFF8A;
+			remoteInfo = "CrossTab Extension (iOS)";
+		};
+		ED6A28682DF98C4B008DFF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6A282A2DF98C4A008DFF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6A28652DF98C4B008DFF8A;
+			remoteInfo = "CrossTab Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED6A28802DF98C4B008DFF8A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED6A285D2DF98C4B008DFF8A /* CrossTab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28872DF98C4B008DFF8A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED6A28672DF98C4B008DFF8A /* CrossTab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED6A28312DF98C4A008DFF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		ED6A28322DF98C4A008DFF8A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ED6A28332DF98C4A008DFF8A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		ED6A28342DF98C4A008DFF8A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		ED6A28352DF98C4A008DFF8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6A28362DF98C4B008DFF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6A28382DF98C4B008DFF8A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		ED6A283D2DF98C4B008DFF8A /* CrossTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A28402DF98C4B008DFF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6A28422DF98C4B008DFF8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6A28452DF98C4B008DFF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6A28482DF98C4B008DFF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6A284A2DF98C4B008DFF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6A284F2DF98C4B008DFF8A /* CrossTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A28512DF98C4B008DFF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6A28542DF98C4B008DFF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6A28562DF98C4B008DFF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6A28572DF98C4B008DFF8A /* CrossTab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrossTab.entitlements; sourceTree = "<group>"; };
+		ED6A285C2DF98C4B008DFF8A /* CrossTab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrossTab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A28612DF98C4B008DFF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6A28662DF98C4B008DFF8A /* CrossTab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrossTab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A286B2DF98C4B008DFF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6A286C2DF98C4B008DFF8A /* CrossTab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrossTab.entitlements; sourceTree = "<group>"; };
+		ED6A288C2DF98C4B008DFF8A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../.output/safari-mv2/background.js"; sourceTree = "<group>"; };
+		ED6A288D2DF98C4B008DFF8A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../../.output/safari-mv2/popup.html"; sourceTree = "<group>"; };
+		ED6A288E2DF98C4B008DFF8A /* chunks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = chunks; path = "../../../.output/safari-mv2/chunks"; sourceTree = "<group>"; };
+		ED6A288F2DF98C4B008DFF8A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../.output/safari-mv2/icons"; sourceTree = "<group>"; };
+		ED6A28902DF98C4B008DFF8A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../.output/safari-mv2/manifest.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6A283A2DF98C4B008DFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A284C2DF98C4B008DFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28592DF98C4B008DFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28632DF98C4B008DFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6A28292DF98C4A008DFF8A = {
+			isa = PBXGroup;
+			children = (
+				ED6A282E2DF98C4A008DFF8A /* Shared (App) */,
+				ED6A28372DF98C4B008DFF8A /* Shared (Extension) */,
+				ED6A283F2DF98C4B008DFF8A /* iOS (App) */,
+				ED6A28502DF98C4B008DFF8A /* macOS (App) */,
+				ED6A28602DF98C4B008DFF8A /* iOS (Extension) */,
+				ED6A286A2DF98C4B008DFF8A /* macOS (Extension) */,
+				ED6A283E2DF98C4B008DFF8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6A282E2DF98C4A008DFF8A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A28352DF98C4A008DFF8A /* ViewController.swift */,
+				ED6A28362DF98C4B008DFF8A /* Assets.xcassets */,
+				ED6A282F2DF98C4A008DFF8A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		ED6A282F2DF98C4A008DFF8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A28302DF98C4A008DFF8A /* Main.html */,
+				ED6A28322DF98C4A008DFF8A /* Icon.png */,
+				ED6A28332DF98C4A008DFF8A /* Style.css */,
+				ED6A28342DF98C4A008DFF8A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED6A28372DF98C4B008DFF8A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A288B2DF98C4B008DFF8A /* Resources */,
+				ED6A28382DF98C4B008DFF8A /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		ED6A283E2DF98C4B008DFF8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A283D2DF98C4B008DFF8A /* CrossTab.app */,
+				ED6A284F2DF98C4B008DFF8A /* CrossTab.app */,
+				ED6A285C2DF98C4B008DFF8A /* CrossTab Extension.appex */,
+				ED6A28662DF98C4B008DFF8A /* CrossTab Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6A283F2DF98C4B008DFF8A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A28402DF98C4B008DFF8A /* AppDelegate.swift */,
+				ED6A28422DF98C4B008DFF8A /* SceneDelegate.swift */,
+				ED6A28442DF98C4B008DFF8A /* LaunchScreen.storyboard */,
+				ED6A28472DF98C4B008DFF8A /* Main.storyboard */,
+				ED6A284A2DF98C4B008DFF8A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		ED6A28502DF98C4B008DFF8A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A28512DF98C4B008DFF8A /* AppDelegate.swift */,
+				ED6A28532DF98C4B008DFF8A /* Main.storyboard */,
+				ED6A28562DF98C4B008DFF8A /* Info.plist */,
+				ED6A28572DF98C4B008DFF8A /* CrossTab.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		ED6A28602DF98C4B008DFF8A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A28612DF98C4B008DFF8A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ED6A286A2DF98C4B008DFF8A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A286B2DF98C4B008DFF8A /* Info.plist */,
+				ED6A286C2DF98C4B008DFF8A /* CrossTab.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ED6A288B2DF98C4B008DFF8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A288C2DF98C4B008DFF8A /* background.js */,
+				ED6A288D2DF98C4B008DFF8A /* popup.html */,
+				ED6A288E2DF98C4B008DFF8A /* chunks */,
+				ED6A288F2DF98C4B008DFF8A /* icons */,
+				ED6A28902DF98C4B008DFF8A /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6A283C2DF98C4B008DFF8A /* CrossTab (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A28812DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab (iOS)" */;
+			buildPhases = (
+				ED6A28392DF98C4B008DFF8A /* Sources */,
+				ED6A283A2DF98C4B008DFF8A /* Frameworks */,
+				ED6A283B2DF98C4B008DFF8A /* Resources */,
+				ED6A28802DF98C4B008DFF8A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6A285F2DF98C4B008DFF8A /* PBXTargetDependency */,
+			);
+			name = "CrossTab (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CrossTab (iOS)";
+			productReference = ED6A283D2DF98C4B008DFF8A /* CrossTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6A284E2DF98C4B008DFF8A /* CrossTab (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A28882DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab (macOS)" */;
+			buildPhases = (
+				ED6A284B2DF98C4B008DFF8A /* Sources */,
+				ED6A284C2DF98C4B008DFF8A /* Frameworks */,
+				ED6A284D2DF98C4B008DFF8A /* Resources */,
+				ED6A28872DF98C4B008DFF8A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6A28692DF98C4B008DFF8A /* PBXTargetDependency */,
+			);
+			name = "CrossTab (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CrossTab (macOS)";
+			productReference = ED6A284F2DF98C4B008DFF8A /* CrossTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6A285B2DF98C4B008DFF8A /* CrossTab Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A287D2DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab Extension (iOS)" */;
+			buildPhases = (
+				ED6A28582DF98C4B008DFF8A /* Sources */,
+				ED6A28592DF98C4B008DFF8A /* Frameworks */,
+				ED6A285A2DF98C4B008DFF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossTab Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CrossTab Extension (iOS)";
+			productReference = ED6A285C2DF98C4B008DFF8A /* CrossTab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ED6A28652DF98C4B008DFF8A /* CrossTab Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A28842DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab Extension (macOS)" */;
+			buildPhases = (
+				ED6A28622DF98C4B008DFF8A /* Sources */,
+				ED6A28632DF98C4B008DFF8A /* Frameworks */,
+				ED6A28642DF98C4B008DFF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossTab Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CrossTab Extension (macOS)";
+			productReference = ED6A28662DF98C4B008DFF8A /* CrossTab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6A282A2DF98C4A008DFF8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					ED6A283C2DF98C4B008DFF8A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ED6A284E2DF98C4B008DFF8A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ED6A285B2DF98C4B008DFF8A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ED6A28652DF98C4B008DFF8A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = ED6A282D2DF98C4A008DFF8A /* Build configuration list for PBXProject "CrossTab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6A28292DF98C4A008DFF8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED6A283E2DF98C4B008DFF8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6A283C2DF98C4B008DFF8A /* CrossTab (iOS) */,
+				ED6A284E2DF98C4B008DFF8A /* CrossTab (macOS) */,
+				ED6A285B2DF98C4B008DFF8A /* CrossTab Extension (iOS) */,
+				ED6A28652DF98C4B008DFF8A /* CrossTab Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6A283B2DF98C4B008DFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A286F2DF98C4B008DFF8A /* Icon.png in Resources */,
+				ED6A28462DF98C4B008DFF8A /* LaunchScreen.storyboard in Resources */,
+				ED6A286D2DF98C4B008DFF8A /* Main.html in Resources */,
+				ED6A28732DF98C4B008DFF8A /* Script.js in Resources */,
+				ED6A28772DF98C4B008DFF8A /* Assets.xcassets in Resources */,
+				ED6A28492DF98C4B008DFF8A /* Main.storyboard in Resources */,
+				ED6A28712DF98C4B008DFF8A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A284D2DF98C4B008DFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28702DF98C4B008DFF8A /* Icon.png in Resources */,
+				ED6A28722DF98C4B008DFF8A /* Style.css in Resources */,
+				ED6A28552DF98C4B008DFF8A /* Main.storyboard in Resources */,
+				ED6A28742DF98C4B008DFF8A /* Script.js in Resources */,
+				ED6A28782DF98C4B008DFF8A /* Assets.xcassets in Resources */,
+				ED6A286E2DF98C4B008DFF8A /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A285A2DF98C4B008DFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28982DF98C4B008DFF8A /* chunks in Resources */,
+				ED6A28992DF98C4B008DFF8A /* icons in Resources */,
+				ED6A289A2DF98C4B008DFF8A /* manifest.json in Resources */,
+				ED6A28962DF98C4B008DFF8A /* background.js in Resources */,
+				ED6A28972DF98C4B008DFF8A /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28642DF98C4B008DFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28932DF98C4B008DFF8A /* chunks in Resources */,
+				ED6A28942DF98C4B008DFF8A /* icons in Resources */,
+				ED6A28952DF98C4B008DFF8A /* manifest.json in Resources */,
+				ED6A28912DF98C4B008DFF8A /* background.js in Resources */,
+				ED6A28922DF98C4B008DFF8A /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6A28392DF98C4B008DFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28752DF98C4B008DFF8A /* ViewController.swift in Sources */,
+				ED6A28412DF98C4B008DFF8A /* AppDelegate.swift in Sources */,
+				ED6A28432DF98C4B008DFF8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A284B2DF98C4B008DFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28762DF98C4B008DFF8A /* ViewController.swift in Sources */,
+				ED6A28522DF98C4B008DFF8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28582DF98C4B008DFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A28792DF98C4B008DFF8A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A28622DF98C4B008DFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A287A2DF98C4B008DFF8A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6A285F2DF98C4B008DFF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6A285B2DF98C4B008DFF8A /* CrossTab Extension (iOS) */;
+			targetProxy = ED6A285E2DF98C4B008DFF8A /* PBXContainerItemProxy */;
+		};
+		ED6A28692DF98C4B008DFF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6A28652DF98C4B008DFF8A /* CrossTab Extension (macOS) */;
+			targetProxy = ED6A28682DF98C4B008DFF8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6A28302DF98C4A008DFF8A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A28312DF98C4A008DFF8A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		ED6A28442DF98C4B008DFF8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A28452DF98C4B008DFF8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6A28472DF98C4B008DFF8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A28482DF98C4B008DFF8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6A28532DF98C4B008DFF8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A28542DF98C4B008DFF8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6A287B2DF98C4B008DFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6A287C2DF98C4B008DFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED6A287E2DF98C4B008DFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab.Extension;
+				PRODUCT_NAME = "CrossTab Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6A287F2DF98C4B008DFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab.Extension;
+				PRODUCT_NAME = "CrossTab Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6A28822DF98C4B008DFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrossTab;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab;
+				PRODUCT_NAME = CrossTab;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6A28832DF98C4B008DFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrossTab;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab;
+				PRODUCT_NAME = CrossTab;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6A28852DF98C4B008DFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CrossTab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab.Extension;
+				PRODUCT_NAME = "CrossTab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED6A28862DF98C4B008DFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CrossTab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab.Extension;
+				PRODUCT_NAME = "CrossTab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED6A28892DF98C4B008DFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CrossTab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrossTab;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab;
+				PRODUCT_NAME = CrossTab;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED6A288A2DF98C4B008DFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CrossTab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 829NR3MP39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrossTab;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lorenzo0111.CrossTab;
+				PRODUCT_NAME = CrossTab;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6A282D2DF98C4A008DFF8A /* Build configuration list for PBXProject "CrossTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A287B2DF98C4B008DFF8A /* Debug */,
+				ED6A287C2DF98C4B008DFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A287D2DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A287E2DF98C4B008DFF8A /* Debug */,
+				ED6A287F2DF98C4B008DFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A28812DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A28822DF98C4B008DFF8A /* Debug */,
+				ED6A28832DF98C4B008DFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A28842DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A28852DF98C4B008DFF8A /* Debug */,
+				ED6A28862DF98C4B008DFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A28882DF98C4B008DFF8A /* Build configuration list for PBXNativeTarget "CrossTab (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A28892DF98C4B008DFF8A /* Debug */,
+				ED6A288A2DF98C4B008DFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6A282A2DF98C4A008DFF8A /* Project object */;
+}

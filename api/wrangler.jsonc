@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "crosstab-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-06-10",
+  "kv_namespaces": [
+    {
+      "binding": "CROSSTAB_KV",
+      "id": "b64a3328becf4d80876ee9f4691a0041"
+    }
+  ]
+}

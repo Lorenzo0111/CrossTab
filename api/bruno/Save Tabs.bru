@@ -1,0 +1,22 @@
+meta {
+  name: Save Tabs
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8787/tabs
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "tabs": [
+      {
+        "url": "https://google.com"
+      }
+    ],
+    "deviceName": "Bruno"
+  }
+}
